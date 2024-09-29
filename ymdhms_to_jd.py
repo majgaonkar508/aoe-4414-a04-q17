@@ -19,7 +19,6 @@
 # Optional license statement, e.g., See the LICENSE file for the license.
 
 # import Python modules
-# e.g., import math # math module
 import sys # argv
 
 # initialize script arguments
