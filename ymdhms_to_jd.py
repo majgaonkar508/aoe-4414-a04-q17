@@ -19,6 +19,7 @@
 # Optional license statement, e.g., See the LICENSE file for the license.
 
 # import Python modules
+# e.g., import math # math module
 import sys # argv
 
 # initialize script arguments
@@ -46,7 +47,6 @@ else:
   exit()
 
 # main script for calculating fractional julian date
-
 jd = day - 32075 + 1461*(year + 4800 - (14 - month)//12)//4 + 367*(month - 2 + (14 - month)//12*12)//12 - 3*((year + 4900 - (14 - month)//12)//100)//4
 jd_midnight = jd - 0.5
 d_frac = (second + 60*(minute + 60*hour))/86400
